@@ -22,6 +22,7 @@ import logo from "@/public/qr-kode/logo.svg";
 import header_back_icon from "@/public/qr-kode/header_back_icon.svg";  
 import ClientAccordionBehavior from "./ClientAccordionBehavior";
 import { FrequentlyAskedQuestionView2 } from "../components/appcomponents/FrequentlyAskedQuestionView";
+import Footer, { FooterForFaq2 } from "../components/appcomponents/Footer";
 
 
 
@@ -501,7 +502,7 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
               </div>
 
               <div className="getQRcode_accordian_wrapper"> 
-                <div className="qr_code_accordion_item bordor-top active">
+                <div className="qr_code_accordion_item bordor-top">
                   <div className="accordion_header">
                       <strong>Kdo mi jo lahko dejansko izdela, namesti.</strong>
                       <div className="accordian_icon">    
@@ -660,7 +661,7 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
 
         {/* footer */}
         
-        <section className="footer">
+        <section className="footer d-none">
           <div className="autoContent">
             <div className="footer_inner">
               <div className="footer_top">
@@ -724,7 +725,7 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
 
         {/*mobile footer  */}
 
-        <section className="footer mob_footer">
+        <section className="footer mob_footer d-none">
           <div className="autoContent">
             <div className="footer_inner">
               <div className="footer_top"> 
@@ -786,6 +787,8 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
             </div>
           </div>
         </section> 
+
+        <Footer />
       </main>
     </>
   );
