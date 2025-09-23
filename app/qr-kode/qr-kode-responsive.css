@@ -214,7 +214,7 @@ body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflo
     .everything_free_content_text p{ font-size: 20px; font-weight: 600; }
 
     .footer{ display: none;  }
-    .mob_footer{ margin-top: 12px; display: block; }
+    .mob_footer{ margin-top: 12px; display: none; }
 
     .mob_footer .footer_top{ padding: 0px 0px 18px 0px; justify-content: center;}
     .mob_footer .footer_bottom{ padding: 18px 0px 0px 0px;}
