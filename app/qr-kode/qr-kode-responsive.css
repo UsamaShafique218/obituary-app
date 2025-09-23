@@ -130,7 +130,7 @@ body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflo
 
     
     .autoContent{ padding: 0px 12px; }
-    .qr_page_wrapper{ position: absolute; padding-top: 92px; }
+    .qr_page_wrapper{ position: absolute; padding-top: 68px; }
     .mobile_navbar{ display: block; }
 
     .banner_wrapper{ padding: 23px 0px 28px 0px; }
@@ -276,6 +276,8 @@ display: block; }
      .qr_code_accordion_item.active .accordion_content{ padding-bottom: 220px; }
 
  .qr_code_accordion_item.active .doYouMakeQRcode_sec{ bottom: 0px; }
+
+ .faqs_sec_inner button{ height: auto; padding: 8px 6px; }
 
 
 }
