@@ -347,3 +347,4 @@ line-height: 24px;
 .faqs_sec_inner button{ padding: 4px 6px; height: 60px; }
 .faqs_sec_inner .text-center{ text-align: left !important; padding-right: 4px; }
 
+.faqs_sec_inner .whitespace-pre-line{ max-width: 100%; }
