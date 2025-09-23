@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import CommonHeader from "@/app/components/appcomponents/CommonHeader";
 import "./qr-kode.css";
@@ -21,6 +20,7 @@ import linnked_in_icons from "@/public/qr-kode/linnked_in_icons.svg";
 import instagram_icon from "@/public/qr-kode/instagram_icon.svg";  
 import logo from "@/public/qr-kode/logo.svg";  
 import header_back_icon from "@/public/qr-kode/header_back_icon.svg";  
+import ClientAccordionBehavior from "./ClientAccordionBehavior";
 
 
 
@@ -43,7 +43,7 @@ export default function QrKodeZaNagrobnikePage() {
  
   return (
     <>
-    
+      <ClientAccordionBehavior />
       <main className="bg-slate-50 qr_page_wrapper">  
 
         <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
@@ -60,10 +60,10 @@ export default function QrKodeZaNagrobnikePage() {
                           <a href="javascript:void(0)">QR kode</a>
                         </li>
                          <li>
-                          <a href="javascript:void(0)">Žalna stran</a>
+                          <a href="/zalna-stran">Žalna stran</a>
                         </li>
                          <li>
-                          <a href="javascript:void(0)">Spominska</a>
+                          <a href="/spominska">Spominska</a>
                         </li>
                       </ul>
                     </div>
@@ -305,7 +305,6 @@ export default function QrKodeZaNagrobnikePage() {
           <div className="autoContent">
             <div className="faqs_sec_inner">
               <h2>Pogosta vprašanja </h2>
-
               <div className="accordion">
                 <div className="accordion_item bordor-top">
                   <div className="accordion_header">
@@ -353,7 +352,7 @@ export default function QrKodeZaNagrobnikePage() {
                       </div>
                   </div> 
                 </div>
-                <div className="accordion_item active">
+                <div className="accordion_item">
                   <div className="accordion_header">
                       <strong>Ali lahko naročim QR kode za že pred časom umrle?</strong>
                       <div className="accordian_icon"> 
