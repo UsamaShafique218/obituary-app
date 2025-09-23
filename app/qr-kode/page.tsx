@@ -1,5 +1,6 @@
-import type { Metadata } from "next";
-import CommonHeader from "@/app/components/appcomponents/CommonHeader";
+
+import React from "react";
+import type { Metadata } from "next"; 
 import "./qr-kode.css";
 import "./qr-kode-responsive.css"; 
 import Image from "next/image";
@@ -11,8 +12,7 @@ import bnefitsQrImg1 from "@/public/qr-kode/bnefits_qr_img1.png";
 import bnefitsQrImg2 from "@/public/qr-kode/qr_osmrtnica.png";
 import bnefitsQrImg3 from "@/public/qr-kode/bnefits_qr_img2.png";
 import bnefitsQrImg4 from "@/public/qr-kode/bnefits_qr_img3.png"; 
-import qr_screenshoot_img from "@/public/qr-kode/qr_screenshoot_img.png"; 
-import down_arrow from "@/public/qr-kode/down_arrow.svg"; 
+import qr_screenshoot_img from "@/public/qr-kode/qr_screenshoot_img.png";  
 import footer_logo from "@/public/qr-kode/footer_logo.svg"; 
 import facebook_icon from "@/public/qr-kode/facebook_icon.svg"; 
 import twitter_icon from "@/public/qr-kode/twitter_icon.svg"; 
@@ -21,6 +21,7 @@ import instagram_icon from "@/public/qr-kode/instagram_icon.svg";
 import logo from "@/public/qr-kode/logo.svg";  
 import header_back_icon from "@/public/qr-kode/header_back_icon.svg";  
 import ClientAccordionBehavior from "./ClientAccordionBehavior";
+import { FrequentlyAskedQuestionView2 } from "../components/appcomponents/FrequentlyAskedQuestionView";
 
 
 
@@ -39,6 +40,39 @@ export const metadata: Metadata = {
 };
 
 export default function QrKodeZaNagrobnikePage() {
+
+ const faqData = {
+  faqs: [
+    {
+      question: "Navodila za skeniranje QR kod",
+      answer: `Branje QR kod je preprosto in večina sodobnih telefonov ne potrebuje posebne aplikacije, saj je funkcija že vgrajena neposredno v kamero.
+
+Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Poskrbite, da je koda v celoti znotraj okvirja. Čez sekundo ali dve se bo na zaslonu prikazalo obvestilo in z dotikom nanj boste odprli povezano vsebino ali spletno stran.
+
+Če branje ne deluje, potem je morda potrebno namestiti brezplačno aplikacijo (npr. Google Lens, QR Reader).
+
+Če pa skeniranja sploh ne potrebujete, ampak želite zgolj shraniti QR kodo, da jo odnesete h graverju, kamnoseku, izdelovalcu nalepk, potem pa se lahko obrnete na cvetličarno – in radi vam bodo pomagali in poslali kodo na vaš telefon.`,
+    },
+    {
+      question: "Ali lahko naročim QR kode za davno pokojne, pred leti, desetletji?",
+      answer: "Je že v pripravi. To možnost bomo omogočili v oktobru.",
+    },
+    {
+      question: "Je lahko na isti QR kodi več oseb? Kot jih je npr. tudi na spomeniku?",
+      answer: "Lahko in to omogočeno predvidoma v novembru.",
+    },
+    {
+      question: "QR koda je lahko tudi darilo",
+      answer: `...in prijetno presenečenje, ker gre za popolno novost.
+
+Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite, kako bo na namestitev QR kode na spomenik gledal vaš bližnji, ki skrbi za grob oz. se posvetujte, če bi to koga zelo motilo.`,
+    },
+    {
+      question: "Ali lahko QR kodo na spomeniku zaklenem z geslom?",
+      answer: `Seveda lahko! Na ta način imajo dostop do spominske strani zgolj tisti, ki jim sam dostaviš geslo.`,
+    },
+  ],
+};
 
  
   return (
@@ -301,11 +335,11 @@ export default function QrKodeZaNagrobnikePage() {
 
         {/* Frequently asked questions */}
 
-        <section className="faqs_sec">
+        <section className="faqs_sec p-0">
           <div className="autoContent">
-            <div className="faqs_sec_inner">
-              <h2>Pogosta vprašanja </h2>
-              <div className="accordion">
+            <div className="faqs_sec_inner"> 
+
+              <div className="accordion d-none">
                 <div className="accordion_item bordor-top">
                   <div className="accordion_header">
                       <strong>(Q) Can I Book a Ride for Early Morning or Late-Night Flights?</strong>
@@ -383,6 +417,11 @@ export default function QrKodeZaNagrobnikePage() {
                   </div>
                 </div>
               </div>
+
+              <div className="flex w-full">
+                <FrequentlyAskedQuestionView2 data={faqData} from={undefined} />
+              </div>
+
             </div>
           </div>
         </section>
@@ -505,27 +544,26 @@ export default function QrKodeZaNagrobnikePage() {
                           </div>
                       </div>
                   </div>
+
+
+                   {/* Do you make QR codes? */}
+
+                  <div className="doYouMakeQRcode_sec">
+                    <div className="autoContent">
+                      <div className="doYouMakeQRcode_sec_inner">
+                        <div className="doYouMakeQRcode_sec_text">
+                          <strong>Izdelujete QR kode?</strong>
+                          <p>Ponujate morda druge produkte ali storitve, ki bi utegnile zanimati obiskovalce te spletne strani? </p>
+                        </div>
+                        <button className="light_btn">Sodelujmo!</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>  
               </div>
             </div>
           </div>
-        </section>
-
-
-        {/* Do you make QR codes? */}
-
-        <section className="doYouMakeQRcode_sec">
-          <div className="autoContent">
-            <div className="doYouMakeQRcode_sec_inner">
-              <div className="doYouMakeQRcode_sec_text">
-                <strong>Izdelujete QR kode?</strong>
-                <p>Ponujate morda druge produkte ali storitve, ki bi utegnile zanimati obiskovalce te spletne strani? </p>
-              </div>
-              <button className="light_btn">Sodelujmo!</button>
-            </div>
-          </div>
-        </section>
-
+        </section> 
 
         {/* EVERYTHING is free! */}
         <section className="everything_free_sec">

@@ -84,9 +84,23 @@
 
  
 
-.faqs_sec{ width: 100%; padding: 104px 0px; background-color: #F0F5FB; border-top: 1px solid #C7C7C74D; border-bottom: 1px solid #C7C7C74D; }
+.faqs_sec{ width: 100%; background-color: #F0F5FB; border-top: 1px solid #C7C7C74D; border-bottom: 1px solid #C7C7C74D; }
 
 .faqs_sec_inner h2{ color: #1E2125; font-family: Roboto Flex; font-weight: 400; font-size: 40px; line-height: 47px; }
+
+
+
+.faqs_sec .max-w-\[700px\]{ max-width: 866px; }
+
+.faqs_sec .whitespace-pre-line{ color: #3C3E41; font-family: Roboto Flex;
+font-weight: 300; 
+font-size: 16px; 
+line-height: 24px; 
+ }
+
+.faqs_sec .border-t{ border-color: #D4D4D4 !important; }
+
+.faqs_sec button:last-child.border-t{ border-bottom: 1px solid #D4D4D4 !important; }
 
 .accordion{ padding-top: 32px; }
 
@@ -114,7 +128,7 @@
 .accordion_content{ color: #fff; }
 
 
-.getQRcode_sec{ width: 100%; padding: 106px 0px 96px 0px; background: linear-gradient(180deg, #F8F6F3 0%, #F2F6F9 100%); border-top: 1px solid #E3E8EC; border-bottom: 1px solid #E3E8EC; }
+.getQRcode_sec{ width: 100%; padding: 106px 0px 94px 0px; background: linear-gradient(180deg, #F8F6F3 0%, #F2F6F9 100%); border-top: 1px solid #E3E8EC; border-bottom: 1px solid #E3E8EC; }
 
 .getQRcode_sec .autoContent{ max-width: 1054px; }
 
@@ -179,11 +193,12 @@
 }
 .qr_code_accordion_item.active .accordion_header .accordian_icon svg path{ fill: #0A85C2; }
 .qr_code_accordion_item.active .accordion_header .accordian_icon{ position: absolute; top: 10px; }
-.accordion_content{  padding:0.5em 1.25em 1.25em; }
+.qr_code_accordion_item.active .accordion_content{  padding: 0.5em 1.25em 130px 1.25em;  }
 .accordion_content .getQRcode_item_list{ max-width: 644px; }
 
 
-.doYouMakeQRcode_sec{ width: 100%; padding: 33px 0px; background-color: #083545; border-top: 1px solid #0F0671; border-bottom:  1px solid #0F0671; }
+.doYouMakeQRcode_sec{ width: 100%; padding: 33px 0px; background-color: #083545; border-top: 1px solid #0F0671; border-bottom:  1px solid #0F0671; display: none; }
+.qr_code_accordion_item.active .doYouMakeQRcode_sec{ display: block; position: absolute; left: 0px; }
 .doYouMakeQRcode_sec .autoContent{ max-width: 1040px; } 
 
 .doYouMakeQRcode_sec_inner{ display: flex; align-items: center; justify-content: space-between; }
@@ -329,5 +344,6 @@
 
 .header_icons ul li a:hover{ color: #0A85C2; text-decoration: underline; }
 
-
+.faqs_sec_inner button{ padding: 4px 6px; height: 60px; }
+.faqs_sec_inner .text-center{ text-align: left !important; padding-right: 4px; }
 
