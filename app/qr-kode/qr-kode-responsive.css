@@ -123,6 +123,8 @@ body { -webkit-text-size-adjust:none;  -webkit-overflow-scrolling: touch; }
 .web_bnefits_qr_features{ display: none !important; }
  .e_free_c_list_txt p span{ color: #0A85C2; }
  
+ .getQRcode_sec_inner .web-text{ display: block !important; }
+
 /*end of = (min-width: 1024px) and (max-width: 1279px)*/			
 }
 
@@ -211,6 +213,8 @@ body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflo
 
 
 .e_free_c_list_txt p span{ color: #0A85C2; }
+
+.getQRcode_sec_inner .web-text{ display: block !important; }
 
 
 /* end 768 */
@@ -433,6 +437,8 @@ display: block; }
     max-width: 230px;
     margin: auto;
 }
+
+.how_it_works_heading h2{ font-size: 28px; }
 
 
 }
