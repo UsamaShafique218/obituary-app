@@ -22,8 +22,8 @@ import logo from "@/public/qr-kode/logo.svg";
 import header_back_icon from "@/public/qr-kode/header_back_icon.svg";  
 import ClientAccordionBehavior from "./ClientAccordionBehavior";
 import { FrequentlyAskedQuestionView2 } from "../components/appcomponents/FrequentlyAskedQuestionView";
-import Footer, { FooterForFaq2 } from "../components/appcomponents/Footer";
 
+import CommonFooter from "../components/appcomponents/CommonFooter";
 
 
 
@@ -111,7 +111,7 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
           </div>  
         </header>
 
-        <div className="mobile_navbar">
+        <div className="mobile_navbar mobile_navbar_header">
           <ul>
             <li>
               <a href="javascript:void(0)">
@@ -236,7 +236,7 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
                     </div>  
                   </li>
                   <li>
-                    <div className="feature_item"> 
+                    <div className="feature_item qr_osmrtnica_img_wrapper"> 
                       <div className="feature_text">
                         <h3>2. Zbližuje ljudi, povezuje generacije</h3>
                         <p>Spominsko spletno stran lahko skupaj ustvarjajo vsi, ki so pokojnega imeli radi - družina, prijatelji in znanci. Mlajši, ki so navajeni digitalnih vsebin, lahko na ta način lažje vzpostavijo povezavo s predniki, oddaljeni sorodniki pa lahko sodelujejo ne glede na geografsko oddaljenost.</p>
@@ -787,8 +787,8 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
             </div>
           </div>
         </section> 
-
-        <Footer />
+ 
+        <CommonFooter currentPage="/qr-kode" />
       </main>
     </>
   );
