@@ -51,7 +51,7 @@ export default function QrKodeZaNagrobnikePage() {
  const faqData = {
   faqs: [
     {
-      question: "Navodila za skeniranje QR kod",
+      question: "Podrobna navodila za skeniranje QR kod",
       answer: `Branje QR kod je preprosto in večina sodobnih telefonov ne potrebuje posebne aplikacije, saj je funkcija že vgrajena neposredno v kamero.
 
 Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Poskrbite, da je koda v celoti znotraj okvirja. Čez sekundo ali dve se bo na zaslonu prikazalo obvestilo in z dotikom nanj boste odprli povezano vsebino ali spletno stran.
@@ -61,11 +61,11 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
 Če pa skeniranja sploh ne potrebujete, ampak želite zgolj shraniti QR kodo, da jo odnesete h graverju, kamnoseku, izdelovalcu nalepk, potem pa se lahko obrnete na cvetličarno – in radi vam bodo pomagali in poslali kodo na vaš telefon.`,
     },
     {
-      question: "Ali lahko naročim QR kode za davno pokojne, pred leti, desetletji?",
+      question: "Ali lahko naročim QR kode za davno pokojne, pred leti, desetletji?",
       answer: "Je že v pripravi. To možnost bomo omogočili v oktobru.",
     },
     {
-      question: "Je lahko na isti QR kodi več oseb? Kot jih je npr tudi na spomeniku?",
+      question: "Je lahko na isti QR kodi več oseb? Kot jih je lahko tudi na spomeniku?",
       answer: "Lahko in to omogočeno predvidoma v novembru.",
     },
     {
@@ -75,7 +75,7 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
 Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite, kako bo na namestitev QR kode na spomenik gledal vaš bližnji, ki skrbi za grob oz. se posvetujte, če bi to koga zelo motilo.`,
     },
     {
-      question: "Ali lahko QR kodo na spomeniku zaklenem z geslom?",
+      question: "Ali lahko QR kodo na spomeniku zaklenem z geslom?",
       answer: `Seveda lahko! Na ta način imajo dostop do spominske strani zgolj tisti, ki jim sam dostaviš geslo.`,
     },
   ],
@@ -84,7 +84,7 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
 const tabFaqData = {
   faqs: [
     {
-      question: "Navodila za skeniranje QR kod",
+      question: "Podrobna navodila za skeniranje QR kod",
       answer: `Branje QR kod je preprosto in večina sodobnih telefonov ne potrebuje posebne aplikacije, saj je funkcija že vgrajena neposredno v kamero.
 
 Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Poskrbite, da je koda v celoti znotraj okvirja. Čez sekundo ali dve se bo na zaslonu prikazalo obvestilo in z dotikom nanj boste odprli povezano vsebino ali spletno stran.
@@ -94,11 +94,11 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
 Če pa skeniranja sploh ne potrebujete, ampak želite zgolj shraniti QR kodo, da jo odnesete h graverju, kamnoseku, izdelovalcu nalepk, potem pa se lahko obrnete na cvetličarno – in radi vam bodo pomagali in poslali kodo na vaš telefon.`,
     },
     {
-      question: "Ali lahko naročim QR kode za davno pokojne, pred leti, desetletji",
+      question: "Ali lahko naročim QR kode za davno pokojne, pred leti, desetletji?",
       answer: "Je že v pripravi. To možnost bomo omogočili v oktobru.",
     },
     {
-      question: "Je lahko na isti QR kodi več oseb? Kot jih je npr tudi na spomeniku?",
+      question: "Je lahko na isti QR kodi več oseb? Kot jih je lahko tudi na spomeniku?",
       answer: "Lahko in to omogočeno predvidoma v novembru.",
     },
     {
@@ -108,7 +108,7 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
         Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite, kako bo na namestitev QR kode na spomenik gledal vaš bližnji, ki skrbi za grob oz. se posvetujte, če bi to koga zelo motilo.`,
     },
     {
-      question: "Ali lahko QR kodo na spomeniku zaklenem z geslom?",
+      question: "Ali lahko QR kodo na spomeniku zaklenem z geslom?",
       answer: `Seveda lahko! Na ta način imajo dostop do spominske strani zgolj tisti, ki jim sam dostaviš geslo.`,
     },
   ],
@@ -117,7 +117,7 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
 const mobFaqData = {
   faqs: [
     {
-      question: "Navodila za skeniranje QR kod",
+      question: "Navodila za skeniranje QR kod",
       answer: `Branje QR kod je preprosto in večina sodobnih telefonov ne potrebuje posebne aplikacije, saj je funkcija že vgrajena neposredno v kamero.
 
 Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Poskrbite, da je koda v celoti znotraj okvirja. Čez sekundo ali dve se bo na zaslonu prikazalo obvestilo in z dotikom nanj boste odprli povezano vsebino ali spletno stran.
@@ -127,11 +127,11 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
 Če pa skeniranja sploh ne potrebujete, ampak želite zgolj shraniti QR kodo, da jo odnesete h graverju, kamnoseku, izdelovalcu nalepk, potem pa se lahko obrnete na cvetličarno – in radi vam bodo pomagali in poslali kodo na vaš telefon.`,
     },
     {
-      question: "Ali lahko naročim QR kode za davno pokojne, pred leti, desetletji",
+      question: "QR kode za že pred časom pokojne?",
       answer: "Je že v pripravi. To možnost bomo omogočili v oktobru.",
     },
     {
-      question: "Je lahko na isti QR kodi več oseb? Kot jih je npr tudi na spomeniku?",
+      question: "Ali je lahko na isti QR kodi več oseb?",
       answer: "Lahko in to omogočeno predvidoma v novembru.",
     },
     {
@@ -141,7 +141,7 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
         Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite, kako bo na namestitev QR kode na spomenik gledal vaš bližnji, ki skrbi za grob oz. se posvetujte, če bi to koga zelo motilo.`,
     },
     {
-      question: "Ali lahko QR kodo na spomeniku zaklenem z geslom?",
+      question: "Ali lahko QR kodo na spomeniku zaklenem z geslom?",
       answer: `Seveda lahko! Na ta način imajo dostop do spominske strani zgolj tisti, ki jim sam dostaviš geslo.`,
     },
   ],

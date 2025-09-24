@@ -125,6 +125,9 @@ body { -webkit-text-size-adjust:none;  -webkit-overflow-scrolling: touch; }
  
  .getQRcode_sec_inner .web-text{ display: block !important; }
 
+ .tab-faqs .tablet\:max-w-\[600px\]{ max-width: 655px !important; }
+ .tab-faqs .tablet\:max-w-\[600px\] .px-5{ padding: 0px !important; }
+
 /*end of = (min-width: 1024px) and (max-width: 1279px)*/			
 }
 
@@ -215,6 +218,10 @@ body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflo
 .e_free_c_list_txt p span{ color: #0A85C2; }
 
 .getQRcode_sec_inner .web-text{ display: block !important; }
+
+.tab-faqs .tablet\:max-w-\[600px\]{ max-width: 655px !important; }
+.tab-faqs .tablet\:max-w-\[600px\] .px-5{ padding: 0px !important; }
+
 
 
 /* end 768 */
