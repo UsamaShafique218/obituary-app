@@ -45,6 +45,7 @@ body { -webkit-text-size-adjust:none;  -webkit-overflow-scrolling: touch; }
  
 .everything_free_inner{ max-width: 685px; }
 
+
 .autoContent{ padding: 0px 53px; }
 
 .qr_page_wrapper{ padding-top: 80px; }
@@ -108,13 +109,19 @@ body { -webkit-text-size-adjust:none;  -webkit-overflow-scrolling: touch; }
  .bnefits_qr_tombstones_inner h2{ font-size: 28px; }
 
  .web-text{ display: none; }
- .tab-text{ display: block; }
+ .tab-text{ display: block !important; }
 
 
  .web-faqs{ display: none !important; }
  .tab-faqs{ display: block !important; }
  .mob-faqs{ display: none !important; }
- 
+
+
+
+  .mobile_bnefits_qr_features{ display: none !important; }
+.tab_bnefits_qr_features{ display: block !important; }
+.web_bnefits_qr_features{ display: none !important; }
+ .e_free_c_list_txt p span{ color: #0A85C2; }
  
 /*end of = (min-width: 1024px) and (max-width: 1279px)*/			
 }
@@ -189,12 +196,21 @@ body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflo
  .bnefits_qr_tombstones_inner h2{ font-size: 28px; }
 
  .web-text{ display: none; }
- .tab-text{ display: block; }
+ .tab-text{ display: block !important; }
 
 
  .web-faqs{ display: none !important; }
  .tab-faqs{ display: block !important; }
  .mob-faqs{ display: none !important; }
+
+
+
+  .mobile_bnefits_qr_features{ display: none !important; }
+.tab_bnefits_qr_features{ display: block !important; }
+.web_bnefits_qr_features{ display: none !important; }
+
+
+.e_free_c_list_txt p span{ color: #0A85C2; }
 
 
 /* end 768 */
@@ -294,9 +310,9 @@ body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflo
     .everything_free_heading p{ font-size: 20px; font-weight: 600; }
     .everything_free_content{ padding-top: 30px; }
 
-    .e_free_c_list_nbr strong{ font-size: 32px; }
+    .e_free_c_list_nbr strong{ font-size: 32px; line-height: 38px; }
     .e_free_c_list_txt p{ font-size: 16px; }
-    .e_free_c_list_txt p span{ font-size: 16px; font-weight: 500; }
+    .e_free_c_list_txt p span{ font-size: 14px; font-weight: 500; }
     .e_free_c_list_txt small{ font-size: 16px; }
     .e_free_content_list{ padding-bottom: 16px; }
 
@@ -395,7 +411,7 @@ display: block; }
  .web-text{ display: none !important; }
  .mobile-text{ display: block !important; }
 
- .bnefits_qr_tombstones_inner .mobile-text{ max-width: 230px; margin: auto; }
+ 
 
 
  .web-faqs{ display: none !important; }
@@ -404,6 +420,17 @@ display: block; }
 
  .faq-web-text{ display: none !important; }
  .faq-mobile-text{ display: block !important; }
+
+
+ .mobile_bnefits_qr_features{ display: block !important; }
+.tab_bnefits_qr_features{ display: none !important; }
+.web_bnefits_qr_features{ display: none !important; }
+
+
+.max-width-230px {
+    max-width: 230px;
+    margin: auto;
+}
 
 
 }

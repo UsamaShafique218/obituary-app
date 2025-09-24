@@ -292,7 +292,7 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
           <div className="autoContent">
             <div className="bnefits_qr_tombstones_inner">
               <h2 className="web-text">Prednosti QR kod na nagrobnih spomenikih</h2>  
-              <h2 className="mobile-text tab-text">Prednosti QR kod na nagrobnikih</h2>  
+              <h2 className="mobile-text tab-text max-width-230px">Prednosti QR kod na nagrobnikih</h2>  
               <div className="bnefits_qr_features web_bnefits_qr_features"> 
                 <ul>
                   <li>
@@ -301,8 +301,8 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
                         <Image src={bnefitsQrImg1} alt="Bnefits Qr Img1" /> 
                       </div>
                       <div className="feature_text">
-                        <h3>1. Oživljanje spominov; prikliče nazaj že zbledele zgodbe</h3>
-                        <p>Namesto zgolj imena in datumov na nagrobniku lahko obiskovalci vidijo pokojnikov nasmeh, slišijo njegov glas ali gledajo trenutke iz njegovega življenja prek videov, zvočnih posnetkov ali albumov slik. Morda že zbledele zgodbe in spomini znova oživijo, zgodbe pa ostanejo dostopne še prihodnjim rodovom.</p>
+                        <h3 className="web-text">1. Oživljanje spominov; prikliče nazaj že zbledele zgodbe</h3>
+                         <p>Namesto zgolj imena in datumov na nagrobniku lahko obiskovalci vidijo pokojnikov nasmeh, slišijo njegov glas ali gledajo trenutke iz njegovega življenja prek videov, zvočnih posnetkov ali albumov slik. Morda že zbledele zgodbe in spomini znova oživijo, zgodbe pa ostanejo dostopne še prihodnjim rodovom.</p>
                       </div>
                     </div>  
                   </li>
@@ -358,7 +358,6 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
                       </div>
                     </div>  
                   </li> 
-
                   <li>
                     <div className="feature_item feature_item_two_three"> 
                       <div className="feature_text">
@@ -401,6 +400,63 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
                 </ul> 
               </div>
               {/* tab */}
+
+              {/* mobile */}
+              <div className="bnefits_qr_features mobile_bnefits_qr_features"> 
+                <ul>
+                  <li>
+                    <div className="feature_item">
+                      <div className="feature_image feature_image_one"> 
+                        <Image src={bnefitsQrImg1} alt="Bnefits Qr Img1" /> 
+                      </div>
+                      <div className="feature_text">
+                        <h3>1. Že zbledele zgodbe spet oživijo</h3>
+                        <p>Namesto zgolj imena in datumov na nagrobniku lahko obiskovalci vidijo pokojnikov nasmeh, slišijo njegov glas ali gledajo trenutke iz njegovega življenja prek videov, zvočnih posnetkov ali albumov slik. Morda že zbledele zgodbe in spomini znova oživijo, zgodbe pa ostanejo dostopne še prihodnjim rodovom.</p>
+                      </div>
+                    </div>  
+                  </li> 
+                  <li>
+                    <div className="feature_item feature_item_two_three"> 
+                      <div className="feature_text">
+                        <h3>2. Zbližuje ljudi, povezuje generacije </h3>
+                        <p>Spominsko stran lahko skupaj ustvarjajo vsi, ki so pokojnega imeli radi, družina, prijatelji in znanci. Mlajši, ki so navajeni digitalnih vsebin, lahko na ta način lažje vzpostavijo povezavo s predniki, oddaljeni sorodniki pa lahko sodelujejo ne glede na geografsko oddaljenost.</p>
+                      </div>  
+                    </div>  
+                  </li> 
+                  <li>
+                    <div className="feature_item"> 
+                      <div className="tab_feature_imgs_wrapper">
+                        <div className="feature_image feature_image_three"> 
+                          <Image src={bnefitsQrImg3} alt="Bnefits Qr Img3" /> 
+                        </div>
+                        <div className="feature_image qr_osmrtnica_img"> 
+                          <Image src={bnefitsQrImg2} alt="Bnefits Qr Img2" /> 
+                        </div> 
+                      </div>  
+                    </div>  
+                  </li> 
+                  <li>
+                    <div className="feature_item feature_item_two_three"> 
+                      <div className="feature_text">
+                        <h3>3. Visoka obstojnost</h3>
+                        <p>Zapisi na digitalnem mediju so večni, zgodbe živijo in slike ne zbledijo, drugače kot tiste v predalu ali albumu. Kovinske, akrilne, granitne QR kode imajo visoko obstojnost in tudi nalepke so lahko visoko kvalitetne in odporne proti vremenskim vplivom. Pa tudi če se zgodi, jih je mogoče enostavno ponovno izdelati, medtem ko QR koda ostaja vedno ista. </p>
+                      </div>
+                    </div>  
+                  </li>   
+                  <li>
+                    <div className="feature_item"> 
+                      <div className="feature_text">
+                        <h3>4. Enostavna uporaba</h3>
+                        <p>Skeniranje QR kod je s telefonom preko kamere povsem avtomatizirano, enako kot odčitavanje kod v trgovini. Telefoni imajo bralnike običajno že nameščene; so brezplačni in vse bolj uporabljani zaradi svojih številnih prednosti.</p>
+                      </div>
+                      <div className="feature_image feature_image_forth"> 
+                        <Image src={bnefitsQrImg4} alt="Bnefits Qr Img4" /> 
+                      </div>
+                    </div>  
+                  </li>
+                </ul> 
+              </div>
+              {/* mobile */}
             </div>
           </div>
         </section>

@@ -225,7 +225,7 @@ line-height: 24px;
 .e_free_content_list{ width: 100%; padding-bottom: 50px; }
 .e_free_content_list:last-child{ padding-bottom: 0px; }
 
-.e_free_content_list_data{ display: flex; align-items: center; }
+.e_free_content_list_data{ display: flex; }
 
 .e_free_c_list_nbr{ padding-right: 16px; }
 
@@ -392,4 +392,10 @@ line-height: 24px;
 }
 
 .getQRcode_item_list ul li.pt-20px::before{ top: 23px; }
+ 
+
+
+.mobile_bnefits_qr_features{ display: none !important; }
+.tab_bnefits_qr_features{ display: none !important; }
+.web_bnefits_qr_features{ display: block !important; }
 
