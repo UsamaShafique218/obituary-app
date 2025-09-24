@@ -782,23 +782,26 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
         </section>
 
         <div className="mobile_navbar">
-          <ul>
-            <li>
-              <a href="javascript:void(0)">
-                QR KODE
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)">
-                ŽALNA STRAN
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)">
-                SPOMINSKA
-              </a>
-            </li>
-          </ul>
+          <div className="mobile_navbar_inner">
+            <ul>
+              <li>
+                <a href="javascript:void(0)">
+                  QR KODE
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  ŽALNA STRAN
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  SPOMINSKA
+                </a>
+              </li>
+            </ul>
+          </div>
+          
         </div>
 
         {/* footer */}

@@ -230,27 +230,25 @@ line-height: 24px;
 .e_free_c_list_nbr{ padding-right: 16px; }
 
 .e_free_c_list_nbr strong{ font-family: Roboto Flex; font-weight: 500; font-style: Italic; font-size: 48px; line-height: 48px; text-align: center; display: block; }
-.number_1{ color: #A26360; display: block; }
+.number_1{ color: #A26360; display: block; text-shadow: 0px 4px 4px #00000030; }
  
 
 .number_2 {
   color: #D4A29C;
   background: transparent;  
-  text-shadow: 
-    2px 2px 6px rgba(0, 0, 0, 0.15), 
-    1px 1px 3px rgba(0, 0, 0, 0.1);   
+  text-shadow: 0px 4px 4px #00000030;  
 }
 
-.number_3{ color: #E8B298; text-shadow: 4px 4px 15px 0px #0000000D, 0px 4px 4px 0px #00000026;}
+.number_3{ color: #E8B298; text-shadow: 0px 4px 4px #00000030;}
 
-.number_4{ color: #EDCC8B; text-shadow: 4px 4px 15px 0px #0000000D, 0px 4px 4px 0px #00000026; }
+.number_4{ color: #EDCC8B; text-shadow: 0px 4px 4px #00000030; }
 
-.number_5{ color: #FAE1A4; text-shadow: 4px 4px 15px 0px #0000000D, 0px 4px 4px 0px #00000026; }
+.number_5{ color: #FAE1A4; text-shadow: 0px 4px 4px #00000030; }
 
 .e_free_c_list_txt p{ color: #3C3E41; font-family: Roboto Flex; font-weight: 400; font-size: 18px; line-height: 27px;   }
 
 .e_free_c_list_txt p span{ color: #530CC6; }
-.e_free_c_list_txt small{ color: #6D778E; font-family: Roboto Flex; font-weight: 400; font-size: 18px; line-height: 27px;letter-spacing: 0%; display: block; }
+.e_free_c_list_txt small{ color: #6D778E; font-family: Roboto Flex; font-weight: 400; font-size: 14px; line-height: 27px;letter-spacing: 0%; display: block; }
 
 .everything_free_content_text{ width: 100%; padding-top: 22px; display: flex; align-items: center; justify-content: center; }
 .everything_free_content_text p{ color: #3C3E41; font-family: Roboto Flex; font-weight: 700; font-size: 24px; line-height: 32px; text-align: center; }
@@ -311,7 +309,9 @@ line-height: 24px;
 
 .mobile_navbar ul{ display: flex; align-items: center; justify-content: space-between; margin: 0px -18px; }
 .mobile_navbar ul li{ width: 33.33%; padding: 0px 18px; text-align: center; }
-.mobile_navbar ul li a{ color: #FFFFFF; font-family: Roboto Flex; font-weight: 400; font-size: 16px;  line-height: 24px; letter-spacing: 0%;vertical-align: middle; }
+.mobile_navbar ul li a{ color: #FFFFFF; font-family: Roboto Flex; font-weight: 400; font-size: 16px;  line-height: 24px; letter-spacing: 0%;vertical-align: middle; white-space: nowrap; }
+
+/* .mobile_navbar_inner{ max-width: 330px; margin: auto; } */
 
 .mob_footer{ display: none; }
 

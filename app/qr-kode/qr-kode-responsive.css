@@ -312,8 +312,8 @@ body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflo
 
     .e_free_c_list_nbr strong{ font-size: 32px; line-height: 38px; }
     .e_free_c_list_txt p{ font-size: 16px; }
-    .e_free_c_list_txt p span{ font-size: 14px; font-weight: 500; }
-    .e_free_c_list_txt small{ font-size: 16px; }
+    .e_free_c_list_txt p span{ font-size: 16px; font-weight: 500; }
+    .e_free_c_list_txt small{ font-size: 14px; }
     .e_free_content_list{ padding-bottom: 16px; }
 
     .everything_free_content_text p{ font-size: 20px; font-weight: 600; }
@@ -399,6 +399,8 @@ display: block; }
  .qr_code_accordion_item.active .doYouMakeQRcode_sec{ bottom: 0px; }
 
  .faqs_sec_inner button{ height: auto; padding: 8px 6px; }
+
+ .faqs_sec_inner button div{ font-size: 16px !important; }
 
 
  .faqs_sec_inner .px-5{ padding: 0px 0px; }
