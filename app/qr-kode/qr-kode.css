@@ -344,7 +344,52 @@ line-height: 24px;
 
 .header_icons ul li a:hover{ color: #0A85C2; text-decoration: underline; }
 
-.faqs_sec_inner button{ padding: 4px 6px; height: 60px; }
+.faqs_sec_inner button{ padding: 4px 6px; height: 48px; }
 .faqs_sec_inner .text-center{ text-align: left !important; padding-right: 4px; }
 
 .faqs_sec_inner .whitespace-pre-line{ max-width: 100%; }
+
+
+
+.mobile-text{ display: none !important; }
+.tab-text{ display: none; }
+
+
+
+
+ .web-faqs{ display: block !important; }
+ .tab-faqs{ display: none !important; }
+ .mob-faqs{ display: none !important; }
+
+ .faq-web-text{ display: block !important; }
+ .faq-mobile-text{ display: none !important; }
+
+ 
+
+.getQRcode_item_list ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;    
+  margin: 0;
+  list-style: none;  
+}
+
+.getQRcode_item_list ul li {
+  position: relative;
+  padding-left: 18px;   
+  margin-right: 20px;  
+}
+
+.getQRcode_item_list ul li::before {
+  content: "•";            
+  position: absolute;
+  left: 0;
+  color: #3C3E41;           
+  font-size: 16px;          
+  line-height: 1;
+  top: 3px;        
+  /* transform: translateY(-50%); */
+}
+
+.getQRcode_item_list ul li.pt-20px::before{ top: 23px; }
+

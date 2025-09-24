@@ -40,6 +40,8 @@ export const metadata: Metadata = {
   },
 };
 
+ 
+
 export default function QrKodeZaNagrobnikePage() {
 
  const faqData = {
@@ -59,7 +61,7 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
       answer: "Je že v pripravi. To možnost bomo omogočili v oktobru.",
     },
     {
-      question: "Je lahko na isti QR kodi več oseb? Kot jih je npr. tudi na spomeniku?",
+      question: "Je lahko na isti QR kodi več oseb? Kot jih je npr tudi na spomeniku?",
       answer: "Lahko in to omogočeno predvidoma v novembru.",
     },
     {
@@ -75,6 +77,74 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
   ],
 };
 
+const tabFaqData = {
+  faqs: [
+    {
+      question: "Podrobna navodila za skeniranje QR kod",
+      answer: `Branje QR kod je preprosto in večina sodobnih telefonov ne potrebuje posebne aplikacije, saj je funkcija že vgrajena neposredno v kamero.
+
+Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Poskrbite, da je koda v celoti znotraj okvirja. Čez sekundo ali dve se bo na zaslonu prikazalo obvestilo in z dotikom nanj boste odprli povezano vsebino ali spletno stran.
+
+Če branje ne deluje, potem je morda potrebno namestiti brezplačno aplikacijo (npr. Google Lens, QR Reader).
+
+Če pa skeniranja sploh ne potrebujete, ampak želite zgolj shraniti QR kodo, da jo odnesete h graverju, kamnoseku, izdelovalcu nalepk, potem pa se lahko obrnete na cvetličarno – in radi vam bodo pomagali in poslali kodo na vaš telefon.`,
+    },
+    {
+      question: "Ali je skeniranje QR kod varno?",
+      answer: "Je že v pripravi. To možnost bomo omogočili v oktobru.",
+    },
+    {
+      question: "QR kodo lahko naroči kdorkoli, ne samo Skrbnik",
+      answer: "Lahko in to omogočeno predvidoma v novembru.",
+    },
+    {
+      question: "Ali lahko naročim QR kode za že pred časom umrle?",
+      answer: `...in prijetno presenečenje, ker gre za popolno novost.
+
+        Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite, kako bo na namestitev QR kode na spomenik gledal vaš bližnji, ki skrbi za grob oz. se posvetujte, če bi to koga zelo motilo.`,
+    },
+    {
+      question: "Kdo mi lahko izdela QR kode?",
+      answer: `Seveda lahko! Na ta način imajo dostop do spominske strani zgolj tisti, ki jim sam dostaviš geslo.`,
+    },
+  ],
+};
+
+const mobFaqData = {
+  faqs: [
+    {
+      question: "Navodila za skeniranje QR kod",
+      answer: `Branje QR kod je preprosto in večina sodobnih telefonov ne potrebuje posebne aplikacije, saj je funkcija že vgrajena neposredno v kamero.
+
+Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Poskrbite, da je koda v celoti znotraj okvirja. Čez sekundo ali dve se bo na zaslonu prikazalo obvestilo in z dotikom nanj boste odprli povezano vsebino ali spletno stran.
+
+Če branje ne deluje, potem je morda potrebno namestiti brezplačno aplikacijo (npr. Google Lens, QR Reader).
+
+Če pa skeniranja sploh ne potrebujete, ampak želite zgolj shraniti QR kodo, da jo odnesete h graverju, kamnoseku, izdelovalcu nalepk, potem pa se lahko obrnete na cvetličarno – in radi vam bodo pomagali in poslali kodo na vaš telefon.`,
+    },
+    {
+      question: "Ali je skeniranje QR kod varno?",
+      answer: "Je že v pripravi. To možnost bomo omogočili v oktobru.",
+    },
+    {
+      question: "Kdo lahko naroči QR kodo?",
+      answer: "Lahko in to omogočeno predvidoma v novembru.",
+    },
+    {
+      question: "QR kode za že pred časom pokojne?",
+      answer: `...in prijetno presenečenje, ker gre za popolno novost.
+
+        Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite, kako bo na namestitev QR kode na spomenik gledal vaš bližnji, ki skrbi za grob oz. se posvetujte, če bi to koga zelo motilo.`,
+    },
+    {
+      question: "Kdo mi lahko izdela QR kode?",
+      answer: `Seveda lahko! Na ta način imajo dostop do spominske strani zgolj tisti, ki jim sam dostaviš geslo.`,
+    },
+  ],
+};
+
+
+  
  
   return (
     <>
@@ -221,7 +291,8 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
         <section className="bnefits_qr_tombstones">
           <div className="autoContent">
             <div className="bnefits_qr_tombstones_inner">
-              <h2>Prednosti QR kod na nagrobnih spomenikih</h2>  
+              <h2 className="web-text">Prednosti QR kod na nagrobnih spomenikih</h2>  
+              <h2 className="mobile-text tab-text">Prednosti QR kod na nagrobnikih</h2>  
               <div className="bnefits_qr_features web_bnefits_qr_features"> 
                 <ul>
                   <li>
@@ -419,8 +490,14 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
                 </div>
               </div>
 
-              <div className="flex w-full">
+              <div className="flex w-full web-faqs">
                 <FrequentlyAskedQuestionView2 data={faqData} from={undefined} />
+              </div>
+              <div className="flex w-full tab-faqs">
+                <FrequentlyAskedQuestionView2 data={tabFaqData} from={undefined} />
+              </div>
+              <div className="flex w-full mob-faqs">
+                <FrequentlyAskedQuestionView2 data={mobFaqData} from={undefined} />
               </div>
 
             </div>
@@ -432,7 +509,8 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
         <section className="getQRcode_sec">
           <div className="autoContent">
             <div className="getQRcode_sec_inner">
-              <h2>Kako torej dobim QR kodo za nagrobnik?</h2>
+              <h2 className="web-text">Kako torej dobim QR kodo za nagrobnik?</h2>
+              <h2 className="mobile-text">Kako torej dobim QR kodo?</h2>
 
               <div className="getQRcode_content">  
                 <div className="getQRcode_item_wrapper">
@@ -504,7 +582,8 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
               <div className="getQRcode_accordian_wrapper"> 
                 <div className="qr_code_accordion_item bordor-top">
                   <div className="accordion_header">
-                      <strong>Kdo mi jo lahko dejansko izdela, namesti.</strong>
+                      <strong className="web-text">Kdo mi jo lahko dejansko izdela, namesti.</strong>
+                      <strong className="mobile-text">Kdo mi jo izdela, namesti?</strong>
                       <div className="accordian_icon">    
                           <svg width="34" height="25" viewBox="0 0 34 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <g filter="url(#filter0_d_9053_55410)">
@@ -532,12 +611,19 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
                               <li>
                                 <p>Odvisno od tega na kakšni podlagi jo želite (kovinska ploščica, granit, steklo, nalepka), kje točno bo nameščena, ali naj bo vgravirana ali samo nalepka?</p>
                               </li>
-                              <li>
+                              <li className="faq-web-text">
                                 <p>V kratkem bomo pripravili seznam izvajalcev teh del iz različnih materialov v vašem lokalnem okolju (izdelovalci, kontaktirajte nas)</p>
                               </li>
-                              <li>
+                              <li className="faq-mobile-text">
+                                <p>V kratkem bomo pripravili seznam izvajalcev teh del iz različnih materialov v vašem lokalnem okolju</p>
+                              </li>
+                              <li className="faq-web-text">
                                 <p>Nekaj možnosti bomo ponudili tudi v naši trgovini. </p>
                               </li>
+                              <li className="faq-mobile-text">
+                                <p>Nekaj možnosti bo tudi v naši trgovini.</p>
+                              </li>
+                               
                               <li className="pt-20px">
                                 <p>QR kodo lahko na nagrobnik nato nalepite  sami ali pa vam pomaga pokopališko podjetje (simbolično plačilo). </p>
                               </li>
