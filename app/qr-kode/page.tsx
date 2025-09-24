@@ -556,7 +556,7 @@ Večina bi bila takšnega darila vesela, ne pa vsi. Zato vendarle poprej ocenite
                           <strong>Izdelujete QR kode?</strong>
                           <p>Ponujate morda druge produkte ali storitve, ki bi utegnile zanimati obiskovalce te spletne strani? </p>
                         </div>
-                        <button className="light_btn">Sodelujmo!</button>
+                        <a href="https://osmrtnica.com/kontakt" className="light_btn">Sodelujmo!</a>
                       </div>
                     </div>
                   </div>

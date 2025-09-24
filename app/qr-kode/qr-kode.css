@@ -152,9 +152,9 @@ line-height: 24px;
 .getQRcode_item_list ul li p{ color: #3C3E41; font-family: Roboto Flex; font-weight: 400; font-size: 18px; line-height: 27px; } 
 
 
-.getQRcode_item_right{padding-left: 33px; }
+.getQRcode_item_right{padding-left: 33px; position: relative; }
 
-.getQRcode_item_right_content{ position: relative; top: -56px; }
+.getQRcode_item_right_content{ position: absolute; top: -42px; right: 0px; }
 
 .getQRcode_item_right_img{ width: 300px; }
 .getQRcode_item_right_img img{ width: 100%; height: auto; display: block; }
