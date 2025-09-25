@@ -477,6 +477,8 @@ display: block; }
 .tab_everything_free_content{ display: none !important; }
 .mob_everything_free_content{ display: block !important; }
 
+.getQRcode_item_list ul li{ margin-right: 0px !important; }
+
 
 }
 
