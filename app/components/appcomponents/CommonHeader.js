@@ -39,9 +39,11 @@ const headerLinkSets = {
     { label: " Spominska", path: "/spominska", active: false },
   ],
   "/spominska": [
+    { label: "QR kode", path: "/qr-kode", active: false },
     { label: "Žalna stran", path: "/zalna-stran", active: false },
-    { label: " Spominska", path: "/spominska", active: false },
+    { label: "Spominska", path: "/spominska", active: false },
   ],
+  
   "/resitve-za-cvetlicarne": [
     { label: "Cvetličarne", path: "/resitve-za-cvetlicarne", active: false },
     { label: " PRILOŽNOST", path: "/c-priloznost", active: true },

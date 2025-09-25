@@ -23,8 +23,7 @@ const DigitalMobiCard = () => {
             → UPORABA
           </p>
           <p className="text-[16px] font-[400] text-[#3C3E41] leading-[27px] ml-[22px]">
-            Enostavno in uporabno za vse: izbere sliko → izbere številko v
-            imeniku → pošlje drugim
+            Enostavno in uporabno za vse: izbere sliko → izbere kartico → pošlje drugim
           </p>
         </div>
         <div>

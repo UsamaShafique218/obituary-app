@@ -49,7 +49,7 @@ function DriverPage() {
       <div className="flex w-full flex-col  bg-[#D4E6F9]">
         <div className="bg-[#E0E9F3CC] h-[72px] tablet:h-[80px] desktop:h-[92.02px] desktop:-mt-10 tablet:-mt-3 mobile:-mt-2.5" />
 
-          <div className="mobile_navbar mobile_navbar_header d-none">
+          <div className="mobile_navbar mobile_navbar_header">
             <div className="mobile_navbar_inner">
               <ul>
                 <li>
@@ -66,7 +66,7 @@ function DriverPage() {
             </div> 
           </div>
 
-          <div className="mobile_navbar mobile_navbar_header">
+          <div className="mobile_navbar mobile_navbar_header d-none">
             <ul>
               <li>
                 <a href="/qr-kode">
@@ -459,7 +459,7 @@ function DriverPage() {
         </div>
 
 
-        <div className="mobile_navbar mobile_navbar_footer d-none">
+        <div className="mobile_navbar mobile_navbar_footer">
           <div className="mobile_navbar_inner">
             <ul>
               <li>
@@ -476,7 +476,7 @@ function DriverPage() {
           </div> 
         </div>
 
-        <div className="mobile_navbar mobile_navbar_footer">
+        <div className="mobile_navbar mobile_navbar_footer d-none">
           <div className="mobile_navbar_inner">
             <ul>
               <li>
