@@ -127,7 +127,7 @@ padding-bottom: 10px;
  
 
  .letter_spacing_3px{ letter-spacing: -0.3px !important; }
-.mob_own_website_sec{ padding-top: 47px; padding-bottom: 58px; }
+.mob_own_website_sec{ padding-top: 47px; padding-bottom: 58px; background: linear-gradient(173.13deg, #FFFFFF -75.8%, #F2F6F9 195.47%) !important; }
  .mob_own_website_sec_inner{ max-width: 360px;  padding-left: 5px; padding-right: 7px; padding-top: 0px !important; padding-bottom: 0px !important;  }
 
 

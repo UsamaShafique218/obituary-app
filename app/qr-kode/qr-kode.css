@@ -7,7 +7,7 @@
 }
 
 .qr_page_wrapper {  
-  padding-top: 96px;
+  padding-top: 92px;
 }
 
 .pb-16px{ padding-bottom: 16px; }
@@ -398,4 +398,11 @@ line-height: 24px;
 .mobile_bnefits_qr_features{ display: none !important; }
 .tab_bnefits_qr_features{ display: none !important; }
 .web_bnefits_qr_features{ display: block !important; }
+
+
+
+
+.web_everything_free_content{ display: block; }
+.tab_everything_free_content{ display: none; }
+.mob_everything_free_content{ display: none; }
 

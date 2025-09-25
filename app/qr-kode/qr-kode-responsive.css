@@ -51,7 +51,7 @@ body { -webkit-text-size-adjust:none;  -webkit-overflow-scrolling: touch; }
 .qr_page_wrapper{ padding-top: 80px; }
 .banner_wrapper{ padding: 66px 0px 74px 0px; }
 .banner_inner{ flex-direction: column; gap: 50px; max-width: 587px; margin: auto; }
-.banner_content_heading{ padding-top: 30px; text-align: center; }
+.banner_content_heading{ padding-top: 0px; text-align: center; }
 .tab_how_it_works_card_li{ display: block; }
 .how_it_works_content ul{ margin: -78px -12px; }
 .how_it_works_content ul li{ width: 50%; padding: 78px 12px; }
@@ -128,6 +128,14 @@ body { -webkit-text-size-adjust:none;  -webkit-overflow-scrolling: touch; }
  .tab-faqs .tablet\:max-w-\[600px\]{ max-width: 655px !important; }
  .tab-faqs .tablet\:max-w-\[600px\] .px-5{ padding: 0px !important; }
 
+
+ .web_everything_free_content{ display: none !important; }
+    .tab_everything_free_content{ display: block !important; }
+    .mob_everything_free_content{ display: none !important; }
+
+
+    .e_free_c_list_txt p small{ display: inline; }
+
 /*end of = (min-width: 1024px) and (max-width: 1279px)*/			
 }
 
@@ -143,7 +151,7 @@ body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflo
 .qr_page_wrapper{ padding-top: 80px; }
 .banner_wrapper{ padding: 66px 0px 74px 0px; }
 .banner_inner{ flex-direction: column; gap: 50px; max-width: 587px; margin: auto; }
-.banner_content_heading{ padding-top: 30px; text-align: center; }
+.banner_content_heading{ padding-top: 0px; text-align: center; }
 .tab_how_it_works_card_li{ display: block; }
 .how_it_works_content ul{ margin: -78px -12px; }
 .how_it_works_content ul li{ width: 50%; padding: 78px 12px; }
@@ -223,6 +231,13 @@ body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflo
 .tab-faqs .tablet\:max-w-\[600px\] .px-5{ padding: 0px !important; }
 
 
+.web_everything_free_content{ display: none !important; }
+.tab_everything_free_content{ display: block !important; }
+.mob_everything_free_content{ display: none !important; }
+
+.e_free_c_list_txt p small{ display: inline; }
+
+
 
 /* end 768 */
 }
@@ -248,7 +263,7 @@ body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflo
         width: 100%; transform: translateX(-50%); left: 50%; margin-top: 16px; }
     .tablet\:h-\[80px\]{ height: 68px !important; }
 
-    .banner_wrapper{ padding: 60px 0px 28px 0px; }
+    .banner_wrapper{ padding: 65px 0px 28px 0px; }
     .banner_inner{ flex-wrap: wrap; }
     .banner_left{ width: 100%; margin: auto; }
     .banner_right{ width: 100%; }
@@ -371,7 +386,7 @@ display: block; }
         margin: auto; }
 .getQRcode_item_header span{ font-size: 14px; }
 
-.everything_free_inner{ max-width: 371px; margin: auto; }
+.everything_free_inner{ max-width: 341px; margin: auto; }
 
 .faqs_sec_inner{ max-width: 371px; margin: auto; }
 
@@ -435,7 +450,7 @@ display: block; }
  .faq-mobile-text{ display: block !important; }
 
 
- .mobile_bnefits_qr_features{ display: block !important; }
+ .mobile_bnefits_qr_features{ display: block !important; max-width: 341px; }
 .tab_bnefits_qr_features{ display: none !important; }
 .web_bnefits_qr_features{ display: none !important; }
 
@@ -446,6 +461,12 @@ display: block; }
 }
 
 .how_it_works_heading h2{ font-size: 28px; }
+
+
+
+.web_everything_free_content{ display: none !important; }
+.tab_everything_free_content{ display: none !important; }
+.mob_everything_free_content{ display: block !important; }
 
 
 }
