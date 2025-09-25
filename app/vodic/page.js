@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { FAQHeader } from "@/app/components/appcomponents/Header";
+import { FAQHeader, FAQHeader2 } from "@/app/components/appcomponents/Header";
 import { FrequentlyAskedQuestionView2 } from "../components/appcomponents/FrequentlyAskedQuestionView";
 import PromotionProducts from "../components/appcomponents/PromotionProducts";
 import { FooterForFaq2 } from "../components/appcomponents/Footer";
@@ -45,27 +45,46 @@ function DriverPage() {
 
   return (
     <div className="bg-[#F9EBD4] tablet:bg-[#F9EBD4] mobile:bg-[#F9EBD4] min-h-[100vh] vodic-mobile-wrapper">
-      <FAQHeader />
+      <FAQHeader /> 
       <div className="flex w-full flex-col  bg-[#D4E6F9]">
         <div className="bg-[#E0E9F3CC] h-[72px] tablet:h-[80px] desktop:h-[92.02px] desktop:-mt-10 tablet:-mt-3 mobile:-mt-2.5" />
 
-            <div className="mobile_navbar">
-              <div className="mobile_navbar_inner">
-                <ul>
-                  <li>
-                    <a href="/c-faq">
-                      CVETLIČARNE
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/c-info">
-                    POGREBNA PODJETJA
-                    </a>
-                  </li> 
-                </ul>
-              </div>
-              
-            </div>
+          <div className="mobile_navbar mobile_navbar_header d-none">
+            <div className="mobile_navbar_inner">
+              <ul>
+                <li>
+                  <a href="/c-faq">
+                    CVETLIČARNE
+                  </a>
+                </li>
+                <li>
+                  <a href="/c-info">
+                  POGREBNA PODJETJA
+                  </a>
+                </li> 
+              </ul>
+            </div> 
+          </div>
+
+          <div className="mobile_navbar mobile_navbar_header">
+            <ul>
+              <li>
+                <a href="/qr-kode">
+                  QR KODE
+                </a>
+              </li>
+              <li>
+                <a href="/zalna-stran">
+                  ŽALNA STRAN
+                </a>
+              </li>
+              <li>
+                <a href="/spominska">
+                  SPOMINSKA
+                </a>
+              </li>
+            </ul>
+          </div>
           <div className="mobile:flex items-center justify-between hidden h-[30px] bg-[#36556C] px-3 d-none">
             <Link href="/c-faq">KAKO ZAČETI</Link>
             <Link href="/c-info">CENIK</Link>
@@ -440,7 +459,7 @@ function DriverPage() {
         </div>
 
 
-        <div className="mobile_navbar mobile_navbar_footer">
+        <div className="mobile_navbar mobile_navbar_footer d-none">
           <div className="mobile_navbar_inner">
             <ul>
               <li>
@@ -455,6 +474,29 @@ function DriverPage() {
               </li> 
             </ul>
           </div> 
+        </div>
+
+        <div className="mobile_navbar mobile_navbar_footer">
+          <div className="mobile_navbar_inner">
+            <ul>
+              <li>
+                <a href="/qr-kode">
+                  KAKO ZAČETI
+                </a>
+              </li>
+              <li>
+                <a href="/zalna-stran">
+                  CENIK
+                </a>
+              </li>
+              <li>
+                <a href="/spominska">
+                  SPOMINSKA
+                </a>
+              </li>
+            </ul>
+          </div>
+          
         </div>
       </div>
       {/* <FooterForFaq2 /> */}

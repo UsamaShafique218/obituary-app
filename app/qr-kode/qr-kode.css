@@ -410,3 +410,5 @@ line-height: 24px;
 .getQRcode_item_list .web_text{ display: block; }
     .getQRcode_item_list .tab_text{ display: none; }
 
+
+.qr_page_wrapper header{ top: 0px !important; }

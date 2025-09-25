@@ -276,92 +276,172 @@ const PublishingObituaries = () => {
 
 const UniqueFeature = () => {
   return (
-    <div className="text-center space-y-[80px] px-[10px] desktop:px-[100px]">
-      <div className="space-y-4">
-        <p className="text-[20px] font-[400] text-[#3090D5] leading-normal mb-2">
-          DIGITALNI PRODUKTI
-        </p>
-        <h4 className="desktop:text-[40px] tablet:text-[36px] mobile:text-[24px] font-[400] text-[#3C3E41] mobile:leading-[28px] leading-[48px]">
-          Edinstvena priložnost za <span className="font-[800]">močno</span>{" "}
-          promocijo
-        </h4>
-        <p className="text-[24px] mobile:text-[18px] font-[700] text-[#3C3E41] leading-[48px] flex flex-col gap-1.5">
-          cvetličarne, ki je ne omogoča nobena druga rešitev
-        </p>
-        <p className="text-[18px] mobile:text-[16px] font-[400] text-[#3C3E41] leading-[27px] mobile:leading-[24px] flex flex-col gap-1.5">
-          Izkoristite to zelo učinkovito orodje za vašo promocijo!
+    <>
+      <div className="text-center space-y-[80px] px-[10px] desktop:px-[100px] web_faq_data"> 
+        <div className="space-y-4">
+          <p className="text-[20px] font-[400] text-[#3090D5] leading-normal mb-2">
+            DIGITALNI PRODUKTI
+          </p>
+          <h4 className="desktop:text-[40px] tablet:text-[36px] mobile:text-[24px] font-[400] text-[#3C3E41] mobile:leading-[28px] leading-[48px]">
+            Edinstvena priložnost za <span className="font-[800]">močno</span>{" "}
+            promocijo
+          </h4>
+          <p className="text-[24px] mobile:text-[18px] font-[700] text-[#3C3E41] leading-[48px] flex flex-col gap-1.5">
+            cvetličarne, ki je ne omogoča nobena druga rešitev
+          </p>
+          <p className="text-[18px] mobile:text-[16px] font-[400] text-[#3C3E41] leading-[27px] mobile:leading-[24px] flex flex-col gap-1.5">
+            Izkoristite to zelo učinkovito orodje za vašo promocijo!
+          </p>
+        </div>
+
+        <div className="space-y-8 text-left">
+          <p className="desktop:text-[18px] text-[16px] font-[400] text-[#3C3E41] leading-[27px] flex flex-col gap-1.5">
+            Biti na seznamu cvetličarn, ko uporabniki prav to storitev iščejo ali
+            imeti predstavitveno stran, <br /> ki vodi obiskovalce na vaše strani,
+            je dobrodošlo in koristno. Lahko pa je bistveno več od tega.
+          </p>
+
+          <p className="desktop:text-[18px] text-[16px] font-[400] text-[#3C3E41] leading-[27px] flex flex-col gap-1.5">
+            Samo naše rešitve omogočajo
+            <ul className="list-disc marker:text-[#EB1D1D] ml-4">
+              <li>
+                najboljšo možno promocijo od ust do ust, ki je hkrati najcenejša.
+              </li>
+              <li>
+                ustvarja ‘wow’ učinek, preseneti, osupne, ostane v spominu,
+                postane tema pogovorov,
+              </li>
+              <li>
+                omogoča obuditev zbledelih spominov, za kar vam bodo mnogi ostali
+                dolgo iskreno hvaležni,{" "}
+              </li>
+              <li>
+                in tesnejše povezovanje generacij in rodbin med seboj, kar je
+                neprecenljivo.
+              </li>
+              <li>
+                ustvarja veliko konkurenčno prednost v primerjavi s cvetličarno,
+                ki ni vključena v naš sistem.
+              </li>
+            </ul>
+          </p>
+
+          <p className="desktop:text-[18px] text-[16px] font-[400] text-[#3C3E41] leading-[27px] flex flex-col gap-1.5">
+            To so prave koristi za podjetje. Ponuja en kup orodij za privabljanje
+            novih klientov in poglabljanje vezi z obstoječimi; daje možnost biti
+            na pravem mestu, ko vas stranke potrebujejo. Prinaša tisto, kar drugi
+            ne → rešitev.
+          </p>
+
+          <p className="desktop:text-[18px] text-[16px] font-[400] text-[#3C3E41] leading-[27px] flex flex-col gap-1.5">
+            Vsako darilo, ki ga boste podarili strankam šteje, je koristno,
+            prinaša podjetju veliko več, kot tista minuta, ki je za to potrebna.
+            Je uporabno orodje, most, ki zbližuje vaše podjetje in potrošnike.
+          </p>
+        </div>
+
+        <div className="space-y-4">
+          <h4 className="desktop:text-[40px] tablet:text-[34px] mobile:text-[24px] font-[400] text-[#3C3E41] mobile:leading-[28px] leading-[48px]">
+            Zdaj na začetku je pravi trenutek in učinek največji
+          </h4>
+          <p className="text-[24px] mobile:text-[18px] font-[700] text-[#3C3E41] leading-[48px] flex flex-col gap-1.5">
+            in hkrati priložnost za izkoriščenje vseh dodatnih ugodnosti
+          </p>
+          <p className="text-[18px] mobile:text-[16px] font-[400] text-[#3C3E41] leading-[27px] mobile:leading-[24px] flex items-center justify-center gap-1.5">
+            ki jih omogoča otvoritvena akcija. Oglejte si jih{" "}
+            <span className="underline text-[#3090D5]">
+              <Link href="/c-priloznost">tukaj</Link>
+            </span>
+            .
+          </p>
+        </div>
+
+        <p className="text-[16px] mobile:text-[14px] leading-[27px] mobile:leading-[24px] font-[400] text-[#3C3E41]">
+          V primeru, da se konec oktobra ne odločite za nadaljevanje, se dostop do
+          vaše strani prekine in enako privilegiji, vaša cvetličarna pa vseeno
+          ostane brezplačno na listi lokalnih cvetličarn, vendar brez kontaktnih
+          informacij. 
         </p>
       </div>
 
-      <div className="space-y-8 text-left">
-        <p className="desktop:text-[18px] text-[16px] font-[400] text-[#3C3E41] leading-[27px] flex flex-col gap-1.5">
-          Biti na seznamu cvetličarn, ko uporabniki prav to storitev iščejo ali
-          imeti predstavitveno stran, <br /> ki vodi obiskovalce na vaše strani,
-          je dobrodošlo in koristno. Lahko pa je bistveno več od tega.
-        </p>
+      {/* mobile */}
+      <div className="text-center space-y-[80px] px-[10px] desktop:px-[100px] mob_faq_data">  
+        <div className="max_width_337px">
+          <div className="space-y-4">
+            <p className="text-[20px] font-[400] text-[#3090D5] leading-normal pb_6px fs_14px max_w_324px">
+              DIGITALNI PRODUKTI
+            </p>
+            <h4 className="desktop:text-[40px] tablet:text-[36px] mobile:text-[24px] font-[400] text-[#3C3E41] mobile:leading-[28px] leading-[48px] mb_23px mt_0px">
+              Edinstvena priložnost za <span className="font-[700]">močno</span>{" "}
+              promocijo cvetličarne
+            </h4> 
+            <p className="text-[18px] mobile:text-[16px] font-[400] text-[#3C3E41] leading-[27px] mobile:leading-[24px] flex flex-col gap-1.5 mt_0">
+              ki je ne omogoča nobena druga rešitev
+            </p>
+          </div>
 
-        <p className="desktop:text-[18px] text-[16px] font-[400] text-[#3C3E41] leading-[27px] flex flex-col gap-1.5">
-          Samo naše rešitve omogočajo
-          <ul className="list-disc marker:text-[#EB1D1D] ml-4">
-            <li>
-              najboljšo možno promocijo od ust do ust, ki je hkrati najcenejša.
-            </li>
-            <li>
-              ustvarja ‘wow’ učinek, preseneti, osupne, ostane v spominu,
-              postane tema pogovorov,
-            </li>
-            <li>
-              omogoča obuditev zbledelih spominov, za kar vam bodo mnogi ostali
-              dolgo iskreno hvaležni,{" "}
-            </li>
-            <li>
-              in tesnejše povezovanje generacij in rodbin med seboj, kar je
-              neprecenljivo.
-            </li>
-            <li>
-              ustvarja veliko konkurenčno prednost v primerjavi s cvetličarno,
-              ki ni vključena v naš sistem.
-            </li>
-          </ul>
-        </p>
+          <div className="space-y-8 text-left pt_64px">
+            <p className="desktop:text-[18px] text-[16px] font-[400] text-[#3C3E41] leading-[27px] flex flex-col gap-1.5">
+              Biti na seznamu cvetličarn, ko uporabniki prav to storitev iščejo ali imeti predstavitveno stran, ki vodi obiskovalce na vaše strani, je dobrodošlo in koristno. Lahko pa je bistveno več od tega. 
+            </p>
 
-        <p className="desktop:text-[18px] text-[16px] font-[400] text-[#3C3E41] leading-[27px] flex flex-col gap-1.5">
-          To so prave koristi za podjetje. Ponuja en kup orodij za privabljanje
-          novih klientov in poglabljanje vezi z obstoječimi; daje možnost biti
-          na pravem mestu, ko vas stranke potrebujejo. Prinaša tisto, kar drugi
-          ne → rešitev.
-        </p>
+            <div className="detail_list">  
+              <p className="desktop:text-[18px] text-[16px] font-[400] text-[#3C3E41] leading-[27px] flex flex-col gap-1.5">
+                Samo naše rešitve omogočajo 
+              </p>
+                <ul className="list-disc marker:text-[#EB1D1D] ml-4">
+                  <li>
+                    najboljšo možno promocijo od ust do ust, ki je hkrati najcenejša.
+                  </li>
+                  <li>
+                    ustvarja ‘wow’ učinek, preseneti, osupne, ostane v spominu, postane tema pogovorov,
+                  </li>
+                  <li>
+                    omogoča obuditev zbledelih spominov, za kar vam bodo mnogi ostali dolgo iskreno hvaležni,
+                  </li>
+                  <li>
+                    in omogoča tesnejše povezovanje generacij in rodbin med seboj, kar je neprecenljivo.
+                  </li>
+                  <li>
+                    ustvarja veliko konkurenčno prednost v primerjavi s cvetličarno, ki ni vključena v naš sistem.
+                  </li>
+                </ul> 
+            </div>
 
-        <p className="desktop:text-[18px] text-[16px] font-[400] text-[#3C3E41] leading-[27px] flex flex-col gap-1.5">
-          Vsako darilo, ki ga boste podarili strankam šteje, je koristno,
-          prinaša podjetju veliko več, kot tista minuta, ki je za to potrebna.
-          Je uporabno orodje, most, ki zbližuje vaše podjetje in potrošnike.
+            <p className="desktop:text-[18px] text-[16px] font-[400] text-[#3C3E41] leading-[24px] flex flex-col gap-1.5">
+              To so prave koristi za podjetje. Ponuja en kup orodij za privabljanje novih klientov in poglabljanje vezi z obstoječimi; daje možnost biti na pravem mestu, ko vas stranke potrebujejo. Prinaša tisto, kar drugi ne → rešitev. 
+            </p>
+
+            <p className="desktop:text-[18px] text-[16px] font-[400] text-[#3C3E41] leading-[24px] flex flex-col gap-1.5">
+              Vsako darilo, ki ga boste podarili strankam šteje, je koristno, prinaša podjetju več, kot tista minuta, ki je za to potrebna. Je uporabno orodje, most, ki zbližuje vaše podjetje in potrošnike.
+            </p>
+          </div>
+
+          <div className="mt_93px">
+            <h4 className="mobile:text-[24px] font-[400] text-[#3C3E41] mobile:leading-[28px]">
+              Zdaj na začetku je pravi trenutek in učinek največji
+            </h4>
+            
+            <p className="mobile:text-[16px] font-[400] text-[#3C3E41] leading-[24px] mobile:leading-[18px] flex items-center justify-center gap-1.5 mt_20px">
+              in hkrati priložnost za vse dodatne ugodnosti, ki jih omogoča otvoritvena akcija (tukaj)
+            </p>
+          </div>
+
+        </div>
+
+        <p className="text-[16px] mobile:text-[14px] leading-[27px] mobile:leading-[24px] font-[400] text-[#3C3E41] mt_60px letter_spacing">
+          V primeru, da se konec oktobra ne odločite za nadaljnje sodelovanje, se dostop do vaše strani prekine in enako privilegiji, vaša cvetličarna pa vseeno ostane brezplačno na listi lokalnih, vendar brez kontaktnih informacij. 
+        </p>
+        <p className="vodo_mobile_end">
+          Izgubiti ne morete, če se pridružite, pa četudi samo za en mesec.
         </p>
       </div>
+      {/* mobile */}
+    </>
+    
+    
 
-      <div className="space-y-4">
-        <h4 className="desktop:text-[40px] tablet:text-[34px] mobile:text-[24px] font-[400] text-[#3C3E41] mobile:leading-[28px] leading-[48px]">
-          Zdaj na začetku je pravi trenutek in učinek največji
-        </h4>
-        <p className="text-[24px] mobile:text-[18px] font-[700] text-[#3C3E41] leading-[48px] flex flex-col gap-1.5">
-          in hkrati priložnost za izkoriščenje vseh dodatnih ugodnosti
-        </p>
-        <p className="text-[18px] mobile:text-[16px] font-[400] text-[#3C3E41] leading-[27px] mobile:leading-[24px] flex items-center justify-center gap-1.5">
-          ki jih omogoča otvoritvena akcija. Oglejte si jih{" "}
-          <span className="underline text-[#3090D5]">
-            <Link href="/c-priloznost">tukaj</Link>
-          </span>
-          .
-        </p>
-      </div>
-
-      <p className="text-[16px] mobile:text-[14px] leading-[27px] mobile:leading-[24px] font-[400] text-[#3C3E41]">
-        V primeru, da se konec oktobra ne odločite za nadaljevanje, se dostop do
-        vaše strani prekine in enako privilegiji, vaša cvetličarna pa vseeno
-        ostane brezplačno na listi lokalnih cvetličarn, vendar brez kontaktnih
-        informacij.
-      </p>
-    </div>
+    
   );
 };
 

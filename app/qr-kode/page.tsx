@@ -25,6 +25,7 @@ import ClientAccordionBehavior from "./ClientAccordionBehavior";
 import { FrequentlyAskedQuestionView2 } from "../components/appcomponents/FrequentlyAskedQuestionView";
 
 import CommonFooter from "../components/appcomponents/CommonFooter";
+import { FAQHeader } from "../components/appcomponents/Header";
 
  
 
@@ -155,7 +156,7 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
       <ClientAccordionBehavior />
       <main className="bg-slate-50 qr_page_wrapper">  
 
-        <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+        <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50 d-none">
           <div className="flex w-full justify-between">
             <div className="flex w-full h-[68px] tablet:w-[744px] mx-auto tablet:h-[80px] px-5 tablet:px-6 desktop:w-[1200px] desktop:h-[92.02px] desktop:px-[12px]">
                 <div className="flex justify-between items-center w-full h-full">
@@ -184,6 +185,8 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
             </div>  
           </div>  
         </header>
+
+        <FAQHeader /> 
 
         <div className="mobile_navbar mobile_navbar_header">
           <ul>

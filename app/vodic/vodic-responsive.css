@@ -40,7 +40,8 @@
 	
 body { -webkit-text-size-adjust:none;  -webkit-overflow-scrolling: touch; }
  
-
+.mob_secton_four .web_faq_data{ display: block !important; }
+.mob_secton_four .mob_faq_data{ display: none !important; }
 /*end of = (min-width: 1024px) and (max-width: 1279px)*/			
 }
 
@@ -51,7 +52,8 @@ body { -webkit-text-size-adjust:none;  -webkit-overflow-scrolling: touch; }
  
 body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflow-x: hidden; }
  
-
+.mob_secton_four .web_faq_data{ display: block !important; }
+.mob_secton_four .mob_faq_data{ display: none !important; }
 
 
 /* end 768 */
@@ -104,6 +106,7 @@ body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflo
     .pt-0px{ padding-top: 0px !important; }
     .pb-0px{ padding-bottom: 0px !important; } 
     .fs_24px{ font-size: 24px !important; }
+    .fs_14px{ font-size: 18px !important; }
     .fs_18px{ font-size: 18px !important; }
     .fw_600{ font-weight: 600; }
     .line_height_26px{ line-height: 26px !important; }
@@ -138,7 +141,7 @@ padding-bottom: 10px;
 
  .mob_secton_four{ padding: 56px 0px 69px 0px; }
 
- .mob_secton_four_inner{ padding: 0px 3px 0px 16px !important; max-width: 360px; margin: auto !important;  }
+ .mob_secton_four_inner{ padding: 0px 9px 0px 10px !important; max-width: 360px; margin: auto !important;  }
 
  .mob_own_website_sec_faqs_wrapper{ padding-top: 0px !important; }
  .mob_own_website_sec_faqs_inner {
@@ -159,7 +162,9 @@ padding-bottom: 10px;
  .mob_own_website_sec_faqs_wrapper .h-\[48px\]{ height: 55px !important; }
 
 
- .mob_secton_four .mobile_padding{ padding-top: 21px !important; }
+ .mob_secton_four{ padding-bottom: 110px !important; }
+
+ .mob_secton_four .mobile_padding{ padding-top: 21px !important; padding-bottom: 0px !important; }
  
  .mob_secton_four h3{ font-size: 18px !important; }
 
@@ -178,7 +183,36 @@ padding-bottom: 10px;
  .own_website_sec_faqs_footer p{ color: #3C3E41; font-size: 14px; font-weight: 400; line-height: 24px; }
 
  .mob_secton_four{ background-color: #ecf0f3 !important; }
- 
+
+ .mob_secton_four .web_faq_data{ display: none !important; }
+.mob_secton_four .mob_faq_data{ display: block !important; }
+
+.mob_secton_four .fs_14px{ font-size: 14px !important; } 
+.mob_secton_four .detail_list p, .mob_secton_four .detail_list ul li{ font-size: 16px; font-size: 400; color: #3C3E41; line-height: 24px; }
+.mob_secton_four .pt_64px{ margin-top: 0px !important; padding-top: 64px !important; }
+
+.mob_secton_four .pb_6px{ padding-bottom: 6px !important; }
+.mob_secton_four .mt_0px{ margin-top: 0px !important; }
+.mob_secton_four .mb_23px{ margin-bottom: 23px !important; }
+
+.mob_secton_four .mt_93px{ margin-top: 93px !important; }
+.mob_secton_four .mt_20px{  margin-top: 20px !important;}
+
+.mob_secton_four .mt_60px{ margin-top: 60px !important; }
+
+.mob_secton_four .vodo_mobile_end{ color: #3C3E41; font-family: Roboto Flex;
+font-weight: 400; 
+font-size: 14px; 
+line-height: 24px; 
+text-align: center; margin-top: 20px !important; max-width: 315px; margin: auto;
+ }
+
+ .mob_secton_four .mob_faq_data{ padding-left: 0px !important; padding-right: 0px !important; }
+
+ .mob_secton_four .max_width_337px{ max-width: 337px !important; }
+ .mob_secton_four .letter_spacing{ letter-spacing: -0.3px; }
+
+ .mob_secton_four .max_w_324px{ max-width: 324px !important; margin: auto; }
 
 }
 

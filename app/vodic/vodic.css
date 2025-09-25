@@ -12,3 +12,8 @@
 
 .own_website_sec_faqs_footer{ display: none !important; }
 
+
+
+.mob_secton_four .web_faq_data{ display: block !important; }
+.mob_secton_four .mob_faq_data{ display: none !important; }
+
