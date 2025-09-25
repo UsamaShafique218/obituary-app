@@ -150,12 +150,12 @@ export const FrequentlyAskedQuestionView2 = ({ from, data }) => {
   }, [data]);
   return (
     <div
-      className={`overflow-hidden relative flex items-center max-w-[1920px] tablet:max-w-[600px] mobile:max-w-[400px] w-full mx-auto `}
+      className={`overflow-hidden relative flex items-center max-w-[1920px] tablet:max-w-[600px] mobile:max-w-[400px] w-full mx-auto mob_own_website_sec_faqs_inner`}
     >
       <div
-        className={`h-full max-w-[1920px] mx-auto w-full flex py-[65px] desktop:py-[105px] tablet:py-[75px]  justify-center overflow-hidden `}
+        className={`h-full max-w-[1920px] mx-auto w-full flex py-[65px] desktop:py-[105px] tablet:py-[75px]  justify-center overflow-hidden pt_36px`}
       >
-        <div className="h-full  mx-auto max-w-[700px] px-5 w-full flex flex-col items-start tablet:items-center mobile:items-center">
+        <div className="h-full  mx-auto max-w-[700px] px-5 w-full flex flex-col items-start tablet:items-center mobile:items-center pl_0px pr_0px">
           <div className="flex mobile:flex-col w-full justify-between mb-[27px]">
             <div className="self-start text-[#1E2125] text-[40px] mobile:text-[24px] font-normal leading-[47px] mobile:leading-[33px]">
               Pogosta vprašanja
@@ -172,12 +172,12 @@ export const FrequentlyAskedQuestionView2 = ({ from, data }) => {
                         [index]: !prev[index],
                       }))
                     }
-                    className={`flex w-full justify-between items-center h-[48px] border-t border-t-[#D4D4D4] px-3 mobile:px-0 ${
+                    className={`flex w-full justify-between items-center h-[48px] border-t border-t-[#D4D4D4] px-3 mobile:px-1 mobile:py-1 ${
                       visibleIndexes[index] ? "bg-[#083545]" : ""
                     }`}
                   >
                     <div
-                      className={`flex font-variation-customOpt16 font-normal text-[18px] leading-6 text-[#1E2125] text-center ${
+                      className={`flex font-variation-customOpt16 font-normal text-[18px] leading-6 text-[#1E2125] text-center mobile:text-left ${
                         visibleIndexes[index] ? "text-[#FFFFFF]" : ""
                       }`}
                     >
@@ -198,7 +198,7 @@ export const FrequentlyAskedQuestionView2 = ({ from, data }) => {
                     <div
                       key={index}
                       dangerouslySetInnerHTML={{ __html: faq.answer }}
-                      className="text-[#1E2125] w-full prose mt-3 mb-6 px-6 whitespace-pre-line"
+                      className="text-[#1E2125] w-full prose mt-3 mb-6 desktop:px-6 whitespace-pre-line"
                     ></div>
                   )}
                 </React.Fragment>

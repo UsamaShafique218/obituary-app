@@ -1,0 +1,220 @@
+@media only screen and (min-width: 1901px) {
+   
+    
+}
+
+@media only screen and (min-width: 1536px) and (max-width: 1900px){ 
+   
+     
+
+}
+
+/*start of = (min-width: 1366px) and (max-width: 1440px)*/
+@media only screen and (min-width: 1366px) and (max-width: 1535px){
+   
+ 
+
+/*end of = (min-width: 1366px) and (max-width: 1900px)*/			
+}
+
+
+
+
+
+ 
+/*start of = (min-width: 1280px) and (max-width: 1365px)*/	
+@media only screen and (min-width: 1279px) and (max-width: 1365px){
+
+      
+/*end of = (min-width: 1280px) and (max-width: 1365px)*/			
+}
+
+
+
+
+
+/*start of = (min-width: 1024px) and (max-width: 1279px)*/
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+
+   
+	
+body { -webkit-text-size-adjust:none;  -webkit-overflow-scrolling: touch; }
+ 
+
+/*end of = (min-width: 1024px) and (max-width: 1279px)*/			
+}
+
+
+/*start of = (min-width: 768px) and (max-width: 1023px)*/	
+@media only screen and (min-width: 744px) and (max-width: 1024px){
+   
+ 
+body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflow-x: hidden; }
+ 
+
+
+
+/* end 768 */
+}
+
+
+@media only screen and (min-width:0px) and (max-width:744px){
+   
+ 
+
+    body {
+    -webkit-text-size-adjust: none;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden !important;
+    }
+
+    .vodic-mobile-wrapper{ position: relative; }
+
+    .mobile_navbar{ display: block; overflow: hidden; margin-top: 12px; z-index: 22; } 
+    .mobile_navbar_inner{ max-width: 360px; margin: auto; padding: 3px 8px; }
+
+        .mobile_navbar_footer {
+        position: absolute;
+        margin-top: 0px;
+        bottom: 125px;
+        width: 100%; 
+        left: 0px;
+    }
+    .d-none{ display: none; }
+
+     html, body {
+    overflow-x: hidden;
+    }
+     
+
+    .mob-hero-section{ padding-top: 0px !important; }
+    .mob-hero-section-inner{ max-width: 360px !important; }
+    .mob-hero-section .banner_heading{ line-height: 48px; }
+    .mt-40px{ margin-top: 40px !important; }
+    .mt-0{ margin-top: 0px !important; }
+    .line_height_32px{ line-height: 32px !important; }
+    .tab_web_text{ display: none; }
+    .mobile_text{ display: block; }
+    .banner_mobile_text{ color: #3C3E41; font-family: Roboto Flex; font-weight: 400; font-size: 18px; line-height: 27px; text-align: center;  padding-top: 14px; }
+    .mob-hero-section{ padding-bottom: 68px !important; background-color: #E0E9F3CC !important; }
+
+    .mobile_local_florists_wrapper{ padding-top: 52px !important; padding-bottom: 52px !important;  }
+    .mobile_local_florists_wrapper_inner{  max-width: 360px; padding-left: 5px; padding-right: 7px; }
+
+    .pt-0px{ padding-top: 0px !important; }
+    .pb-0px{ padding-bottom: 0px !important; } 
+    .fs_24px{ font-size: 24px !important; }
+    .fs_18px{ font-size: 18px !important; }
+    .fw_600{ font-weight: 600; }
+    .line_height_26px{ line-height: 26px !important; }
+    .line_height_32px{ line-height: 32px !important; }
+    .line_height_48px{ line-height: 48px !important; }
+    .mt_52px{ margin-top: 52px !important; }
+    .mt_33px{ margin-top: 33px !important; }
+    .mt_21px{ margin-top: 21px !important; }
+    .mt_10px{ margin-top: 10px !important; }
+    .mt-0{ margin-top: 0px !important; }
+
+    .mobile_local_florists_text{ padding-bottom: 30px; }
+
+    .mobile_local_florists_text p, .mob_own_website_sec_text p{ color: #3C3E41; font-family: Roboto Flex;
+font-weight: 400; 
+font-size: 16px; 
+line-height: 24px; 
+padding-bottom: 10px;
+ }
+ .mobile_local_florists_text p:last-child, .mob_own_website_sec_text p:last-child{ padding-bottom: 0px; }
+ 
+
+ .letter_spacing_3px{ letter-spacing: -0.3px !important; }
+.mob_own_website_sec{ padding-top: 47px; padding-bottom: 58px; }
+ .mob_own_website_sec_inner{ max-width: 360px;  padding-left: 5px; padding-right: 7px; padding-top: 0px !important; padding-bottom: 0px !important;  }
+
+
+ .mob_own_website_sec_img{ margin-top: 23px !important; max-width: 187px; height: 250px; margin: auto; }
+ .mob_own_website_sec_img img{ width: 100%; height: 100%; display: block; }
+ 
+ .own_website_endText{ margin-top: 40px !important; }
+
+ .mob_secton_four{ padding: 56px 0px 69px 0px; }
+
+ .mob_secton_four_inner{ padding: 0px 3px 0px 16px !important; max-width: 360px; margin: auto !important;  }
+
+ .mob_own_website_sec_faqs_wrapper{ padding-top: 0px !important; }
+ .mob_own_website_sec_faqs_inner {
+  max-width: 360px;
+  margin: 0 auto;  
+  padding-left: 9px;
+  padding-right: 9px;
+}
+ 
+
+
+ .mob_own_website_sec_faqs_wrapper .pt_36px{ padding-top: 36px !important; }
+
+ .mob_own_website_sec_faqs_wrapper .pr_0px{ padding-right: 0px !important; }
+ .mob_own_website_sec_faqs_wrapper .pl_0px{ padding-left: 0px !important; }
+
+ .mob_own_website_sec_faqs_wrapper .font-variation-customOpt16{ font-size: 16px; padding-right: 10px; }
+ .mob_own_website_sec_faqs_wrapper .h-\[48px\]{ height: 55px !important; }
+
+
+ .mob_secton_four .mobile_padding{ padding-top: 21px !important; }
+ 
+ .mob_secton_four h3{ font-size: 18px !important; }
+
+ .mob_secton_four .mob_gap{ gap: 30px !important; }
+
+
+ .own_website_sec_faqs_footer{ display: block !important; position: relative; top: -65px;  }
+
+ .own_website_sec_faqs_footer_inner{ max-width: 360px;
+        display: flex
+;
+        align-items: center;
+        justify-content: flex-end;
+        margin: auto;
+    padding-right: 13px; }
+ .own_website_sec_faqs_footer p{ color: #3C3E41; font-size: 14px; font-weight: 400; line-height: 24px; }
+
+ .mob_secton_four{ background-color: #ecf0f3 !important; }
+ 
+
+}
+
+@media only screen and (min-width:320px) and (max-width:519px){
+     .banner_content_heading span{ max-width: 380px; margin: auto; }
+     .banner_content_detail p{ max-width: 380px; margin: auto; }
+ 
+}
+@media only screen and (min-width:520px) and (max-width:767px){
+     
+    
+}
+
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape)  {  
+
+ 
+
+
+}
+
+@supports (-webkit-touch-callout: none) {
+    html, body {
+        overflow-x: hidden;  
+    }
+}
+
+
+
+
+
+
+
+
