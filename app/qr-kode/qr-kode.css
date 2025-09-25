@@ -406,3 +406,7 @@ line-height: 24px;
 .tab_everything_free_content{ display: none; }
 .mob_everything_free_content{ display: none; }
 
+
+.getQRcode_item_list .web_text{ display: block; }
+    .getQRcode_item_list .tab_text{ display: none; }
+

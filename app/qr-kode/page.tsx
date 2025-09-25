@@ -595,7 +595,8 @@ Postopek je enostaven: odprite aplikacijo kamere in jo usmerite na kodo QR. Posk
                     <div className="getQRcode_item_list">
                         <ul>
                           <li>
-                            <p>Pogrebno podjetje (ali cvetličarna) brezplačno objavi osmrtnico na seznamu osmrtnic.</p>
+                            <p className="web_text">Pogrebno podjetje (ali cvetličarna) brezplačno objavi osmrtnico na seznamu osmrtnic.</p>
+                            <p className="tab_text">Pogrebno podjetje (ali cvetličarna) brezplačno objavi osmrtnico na listi osmrtnic</p>
                           </li>
                           <li>
                             <p>Istočasno vam brezplačno izdela samostojno Spominsko stran najdražje/ga </p>

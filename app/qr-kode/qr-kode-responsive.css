@@ -136,6 +136,9 @@ body { -webkit-text-size-adjust:none;  -webkit-overflow-scrolling: touch; }
 
     .e_free_c_list_txt p small{ display: inline; }
 
+    .getQRcode_item_list .web_text{ display: none; }
+    .getQRcode_item_list .tab_text{ display: block !important; }
+
 /*end of = (min-width: 1024px) and (max-width: 1279px)*/			
 }
 
@@ -147,6 +150,9 @@ body { -webkit-text-size-adjust:none;  -webkit-overflow-scrolling: touch; }
 body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflow-x: hidden; }
 
 .autoContent{ padding: 0px 53px; }
+
+.getQRcode_item_list .web_text{ display: none; }
+    .getQRcode_item_list .tab_text{ display: block !important; }
 
 .qr_page_wrapper{ padding-top: 80px; }
 .banner_wrapper{ padding: 66px 0px 74px 0px; }
@@ -253,6 +259,9 @@ body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflo
     overflow-x: hidden !important;
     }
 
+
+    .getQRcode_item_list .web_text{ display: none; }
+    .getQRcode_item_list .tab_text{ display: block !important; }
     
     .autoContent{ padding: 0px 12px; }
     .qr_page_wrapper{ position: absolute; padding-top: 68px; }
