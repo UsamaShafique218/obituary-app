@@ -78,7 +78,7 @@ const AdministratorCard = () => {
     <div className="grid grid-cols-12  gap-[20px] items-start mobile:items-center justify-normal mobile:justify-center desktop:gap-[80px] w-full h-full">
       <div className="col-span-4 mobile:col-span-12 w-full">
         <Image
-          src="/iphone-x-7.png"
+          src="/x-7-iphone.png"
           alt="admin-benefit-1"
           className="w-[250px] desktop:w-[300px] h-auto shrink-0 mx-auto mobile:hidden"
           width={281}
@@ -107,7 +107,7 @@ const AdministratorCard = () => {
         </div>
 
         <Image
-          src="/iphone-x-7.png"
+          src="/x-7-iphone.png"
           alt="admin-benefit-1"
           className="w-[150px] h-auto shrink-0 self-center mx-auto hidden mobile:block"
           width={150}
